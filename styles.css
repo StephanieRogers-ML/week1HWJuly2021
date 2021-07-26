@@ -1,0 +1,45 @@
+#brochure {
+    display: flex;
+    height: 500px;
+}
+
+#brochure>div {
+    width: 33%;
+
+}
+
+.col1{
+    border-right: 1rem solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+
+
+.col2{
+    border-right: 1rem solid;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.cell1 {
+    flex: content;
+    border-top: solid;
+    border-top-width: 8px;
+    border-bottom: solid;
+    border-bottom-width: 8px;
+    text-size-adjust: large;
+}
